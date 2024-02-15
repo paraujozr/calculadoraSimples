@@ -21,6 +21,12 @@ export class HomePage {
     this.res = parseFloat(this.n1)-parseFloat(this.n2);
 }
 
+  mult(){
+  this.res = parseFloat(this.n1)*parseFloat(this.n2);
+}
 
+  div(){
+  this.res = parseFloat(this.n1)/parseFloat(this.n2);
+}
 
 }

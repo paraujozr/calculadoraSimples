@@ -17,4 +17,10 @@ export class HomePage {
     this.res = parseFloat(this.n1)+parseFloat(this.n2);
   }
 
+  subtrair(){
+    this.res = parseFloat(this.n1)-parseFloat(this.n2);
+}
+
+
+
 }

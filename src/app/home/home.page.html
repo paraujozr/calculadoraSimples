@@ -21,3 +21,18 @@
   <ion-label>{{res}}</ion-label>
 
 </ion-content>
+
+<ion-content [fullscreen]="true">
+<ion-item>
+  <ion-input label="Primeiro numero" [(ngModel)]="n1" labelPlacement="floating" placeholder=""></ion-input>
+</ion-item>
+
+<ion-item>
+  <ion-input label="Segundo numero" [(ngModel)]="n2" labelPlacement="floating" placeholder="Digite o segundo numero"></ion-input>
+</ion-item>
+
+<ion-button expand="block" (click)="subtrair()">botão de subtrair</ion-button>
+
+<ion-label>{{res}}</ion-label>
+
+</ion-content>
